@@ -1,0 +1,62 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# === Environnement virtuel ===
+.venv/
+venv/
+ENV/
+env/
+*.env
+*.venv
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === VS Code ===
+.vscode/
+.settings/
+
+# === Logs & caches ===
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# === Données et exports ===
+data/
+*.csv
+*.tsv
+*.xlsx
+*.json
+*.db
+*.sqlite
+*.sqlite3
+
+# === Résultats et modèles ===
+models/
+outputs/
+reports/
+notebooks/
+__results__/
+
+# === Tests ===
+.coverage
+htmlcov/
+pytest_cache/
+.tox/
+.mypy_cache/
+
+# === OS files ===
+*.~lock*
+ehthumbs.db
+desktop.ini
